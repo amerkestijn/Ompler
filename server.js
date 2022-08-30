@@ -5,7 +5,6 @@ const express = require("express");
 const apiRoutes = require("./routes/calls");
 const mongoose = require("mongoose");
 const app = express();
-const placehold = "hi";
 
 app.use(express.json());
 app.use("/api", apiRoutes);
