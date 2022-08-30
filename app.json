@@ -1,7 +1,7 @@
 {
-    "scripts": {
+  "scripts": {
     "dokku": {
-    "postdeploy": “node server.js”
-   }
+      "postdeploy": "node server.js"
+    }
   }
- }
+}
