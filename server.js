@@ -1,10 +1,11 @@
 const dotenv = require("dotenv");
-dotenv.config({ path: ".env" });
+dotenv.config({ path: __dirname + "/.env" });
 
 const express = require("express");
 const apiRoutes = require("./routes/calls");
 const mongoose = require("mongoose");
 const app = express();
+const placehold = "hi";
 
 app.use(express.json());
 app.use("/api", apiRoutes);
